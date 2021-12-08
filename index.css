@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fuzzy+Bubbles:wght@700&family=Kanit:wght@100&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
@@ -11,7 +12,7 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  padding: 2%;
+  padding: 2% 10%;
   box-sizing: border-box;
 }
 .col-1 .profil {
@@ -30,6 +31,7 @@ body {
   margin-bottom: 20px;
   color: white;
   font-size: 45px;
+  font-family: "Courgette", cursive;
 }
 .link {
   display: flex;
@@ -39,7 +41,9 @@ body {
 .box1,
 .box2,
 .box3,
-.box4 {
+.box4,
+.box5,
+.box6 {
   cursor: pointer;
   font-size: 35px;
   color: white;
@@ -59,6 +63,9 @@ a :hover {
   body {
     background: radial-gradient(circle at 18% 0%, rgba(63, 51, 81, 1) 0%, rgba(31, 29, 54, 1) 100%);
   }
+  .container {
+    padding: 2% 2%;
+  }
   .col-1 .profil {
     width: 180px;
   }
@@ -70,7 +77,9 @@ a :hover {
   .box1,
   .box2,
   .box3,
-  .box4 {
+  .box4,
+  .box5,
+  .box6 {
     width: 300px;
     height: 60px;
     margin: 10px;
