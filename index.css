@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.row {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.col-1 h2 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 200px;
+  height: 200px;
+  margin: 4px;
+  background: violet;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background: blue;
+  }
+  .link {
+    flex-direction: column;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100px;
+    height: 200px;
+    margin: 4px;
+    background: violet;
+  }
+}
