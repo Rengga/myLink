@@ -2,12 +2,20 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: radial-gradient(circle at 18% 0%, rgba(63, 51, 81, 1) 0%, rgba(31, 29, 54, 1) 100%);
+}
 .container {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
   padding: 2%;
   box-sizing: border-box;
+}
+.col-1 .profil {
+  width: 260px;
+  border-radius: 180px;
+  margin-top: 10px;
 }
 .row {
   width: 100%;
@@ -17,35 +25,45 @@
 }
 .col-1 h2 {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  color: white;
 }
 .link {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .box1,
 .box2,
 .box3,
 .box4 {
-  width: 200px;
-  height: 200px;
-  margin: 4px;
-  background: violet;
+  cursor: pointer;
+  border: 0;
+  width: 250px;
+  height: 100px;
+  margin: 40px;
+  border-radius: 20px;
+  background: white;
 }
 @media only screen and (max-width: 700px) {
   body {
-    background: blue;
+    background: radial-gradient(circle at 18% 0%, rgba(63, 51, 81, 1) 0%, rgba(31, 29, 54, 1) 100%);
+  }
+  .col-1 .profil {
+    width: 180px;
   }
   .link {
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
   .box1,
   .box2,
   .box3,
   .box4 {
-    width: 100px;
-    height: 200px;
-    margin: 4px;
-    background: violet;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    background: white;
   }
 }
