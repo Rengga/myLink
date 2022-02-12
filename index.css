@@ -38,12 +38,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
-.box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6 {
+.box {
   cursor: pointer;
   font-size: 35px;
   color: white;
@@ -74,12 +69,7 @@ a :hover {
     align-items: center;
     margin-bottom: 20px;
   }
-  .box1,
-  .box2,
-  .box3,
-  .box4,
-  .box5,
-  .box6 {
+  .box {
     width: 300px;
     height: 60px;
     margin: 10px;
