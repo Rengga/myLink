@@ -19,6 +19,7 @@ body {
   width: 260px;
   border-radius: 180px;
   margin-top: 10px;
+  border: 6px solid rgba(255, 53, 160, 1);
 }
 .row {
   width: 100%;
